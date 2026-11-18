@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" fill="none">
+  <defs>
+    <linearGradient id="glass" x1="533" y1="130" x2="1490" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF5EF"/>
+      <stop offset=".48" stop-color="#B9D2C5"/>
+      <stop offset="1" stop-color="#668E7B"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="455" y1="35" x2="1490" y2="312" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#267451"/>
+      <stop offset="1" stop-color="#0B4935"/>
+    </linearGradient>
+    <pattern id="windows" width="116" height="90" patternUnits="userSpaceOnUse" patternTransform="skewY(17)">
+      <rect x="7" y="7" width="93" height="66" rx="3" fill="#F4F7F1" fill-opacity=".72"/>
+      <path d="M53 7v66M7 39h93" stroke="#719382" stroke-opacity=".35" stroke-width="4"/>
+      <rect x="12" y="12" width="35" height="22" fill="#C5D8CD"/>
+      <rect x="59" y="12" width="35" height="22" fill="#D9E7DD"/>
+      <rect x="12" y="45" width="35" height="22" fill="#B2CABB"/>
+      <rect x="59" y="45" width="35" height="22" fill="#E3ECE4"/>
+    </pattern>
+    <linearGradient id="fade" x1="470" y1="300" x2="1270" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FAF7" stop-opacity=".85"/>
+      <stop offset=".7" stop-color="#F6FAF7" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#F6FAF7" stop-opacity=".02"/>
+    </linearGradient>
+  </defs>
+  <path d="M420 145 660 52l846 218 94 380H436l-16-505Z" fill="url(#glass)"/>
+  <path d="m420 145 240-93 846 218-12 77-817-212-235 91-22-81Z" fill="url(#roof)"/>
+  <path d="m659 51 9-51 841 211-3 59L659 51Z" fill="#34785A" fill-opacity=".82"/>
+  <path d="m434 236 1139 292-13 71-1112-278-14-85Z" fill="url(#windows)" opacity=".8"/>
+  <path d="m458 343 1097 279H436l22-279Z" fill="url(#windows)" opacity=".58"/>
+  <path d="m649 69 853 220M635 132l869 224M592 208l924 236M548 294l978 251" stroke="#F7FAF6" stroke-opacity=".58" stroke-width="9"/>
+  <path d="m534 92-82 534m187-577-56 577m180-546-35 546m182-508-13 508m165-468 11 468m151-428 34 428m129-388 58 388" stroke="#668C79" stroke-opacity=".28" stroke-width="5"/>
+  <path d="m744 99 40 6-21 75-42-10 23-71Zm91 23 43 10-19 73-43-11 19-72Zm96 25 44 12-17 72-44-12 17-72Zm101 27 45 12-13 72-45-13 13-71Zm107 28 45 13-10 71-46-13 11-71Z" fill="#F2D778" fill-opacity=".86"/>
+  <path d="M0 0h1600v650H0z" fill="url(#fade)"/>
+</svg>
